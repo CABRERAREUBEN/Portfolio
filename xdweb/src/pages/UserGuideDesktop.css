@@ -1,0 +1,458 @@
+.user-guide-desktop-child {
+  position: absolute;
+  top: -455px;
+  left: 625px;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(95, 0, 189, 0.33),
+    rgba(23, 23, 23, 0.23)
+  );
+  width: 1634px;
+  height: 1249px;
+}
+.user-guide-desktop-item {
+  position: absolute;
+  top: 1327px;
+  left: -617px;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(95, 0, 189, 0.33),
+    rgba(23, 23, 23, 0.13)
+  );
+  width: 1667px;
+  height: 1068px;
+}
+.online1,
+.physical1 {
+  position: absolute;
+  top: 431px;
+  left: 90px;
+  font-size: var(--font-size-21xl);
+  text-align: left;
+}
+.online1 {
+  top: 940px;
+}
+.group-child58,
+.group-child59 {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-mini);
+  width: 397.92px;
+  height: 310.82px;
+}
+.group-child58 {
+  left: calc(50% - 198.96px);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(255, 255, 255, 0.03)
+  );
+  box-shadow: 0 8px 11px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(80px);
+}
+.group-child59 {
+  left: 0;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.rectangle-parent13,
+.rectangle-parent14 {
+  position: absolute;
+  top: 523px;
+  left: calc(50% - 623px);
+  width: 397.92px;
+  height: 310.82px;
+}
+.rectangle-parent14 {
+  left: calc(50% - 199px);
+}
+.verified-profile-icon1 {
+  position: absolute;
+  top: 598px;
+  left: 685px;
+  width: 97px;
+  height: 97px;
+  overflow: hidden;
+}
+.rectangle-parent15 {
+  position: absolute;
+  top: 523px;
+  left: calc(50% + 225px);
+  width: 397.92px;
+  height: 310.82px;
+}
+.authentication-process-is2,
+.items-are-authenticated1,
+.items-will-be2 {
+  position: absolute;
+  top: 744px;
+  left: 136px;
+  display: inline-block;
+  width: 319px;
+}
+.authentication-process-is2,
+.items-will-be2 {
+  left: 561px;
+  width: 328px;
+}
+.items-will-be2 {
+  left: 982px;
+  width: 321px;
+}
+.group-child64,
+.group-child65 {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-mini);
+  width: 398px;
+  height: 310.88px;
+}
+.group-child64 {
+  left: calc(50% - 199px);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(255, 255, 255, 0.03)
+  );
+  box-shadow: 0 8px 11px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(80px);
+}
+.group-child65 {
+  left: 0;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.rectangle-parent16,
+.rectangle-parent17 {
+  position: absolute;
+  top: 1029px;
+  left: calc(50% - 623px);
+  width: 398px;
+  height: 310.88px;
+}
+.rectangle-parent17 {
+  left: calc(50% - 199px);
+}
+.group-child68 {
+  top: 0;
+  left: calc(50% - 199.07px);
+  border-radius: var(--br-mini);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(255, 255, 255, 0.03)
+  );
+  box-shadow: 0 8px 11px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(80px);
+}
+.group-child68,
+.group-child69,
+.rectangle-parent18 {
+  position: absolute;
+  width: 398.15px;
+  height: 311px;
+}
+.group-child69 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.rectangle-parent18 {
+  top: 1029px;
+  left: calc(50% + 225px);
+}
+.items-can-be1 {
+  left: 122px;
+  width: 357px;
+}
+.authentication-process-is3,
+.items-can-be1,
+.items-will-be3 {
+  position: absolute;
+  top: 1250px;
+  display: inline-block;
+}
+.authentication-process-is3 {
+  left: calc(50% - 172px);
+  width: 344px;
+}
+.items-will-be3 {
+  left: 1007px;
+  width: 274px;
+}
+.layer-1-icon1 {
+  position: absolute;
+  top: 600px;
+  left: 1091px;
+  width: 103px;
+  height: 101px;
+  overflow: hidden;
+}
+.user-guide-desktop-inner {
+  position: absolute;
+  top: 1086px;
+  left: 1068px;
+  width: 151.9px;
+  height: 113px;
+  object-fit: cover;
+}
+.user-guide3 {
+  position: absolute;
+  top: 216px;
+  left: calc(50% - 190px);
+  font-size: var(--font-size-51xl);
+  text-align: left;
+}
+.user-guide-desktop-child1 {
+  position: absolute;
+  top: 330px;
+  left: calc(50% - 325px);
+  width: 650px;
+  height: 0;
+}
+.globe-icon1 {
+  position: absolute;
+  top: 1094px;
+  left: 243px;
+  width: 106px;
+  height: 106px;
+  overflow: hidden;
+}
+.shield-access-icon1,
+.users-icon1 {
+  position: absolute;
+  top: 596px;
+  left: 246px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.users-icon1 {
+  top: 1087px;
+  left: 663px;
+  width: 113px;
+  height: 113px;
+}
+.about2 {
+  position: absolute;
+  top: 103px;
+  left: calc(50% + 26px);
+}
+.terms-of-use2 {
+  position: absolute;
+  top: 239px;
+  left: 601px;
+  font-weight: 500;
+}
+.contact-us5,
+.faqs2,
+.privacy-policy2 {
+  position: absolute;
+  top: 180px;
+  left: 613px;
+  font-weight: 500;
+}
+.faqs2,
+.privacy-policy2 {
+  top: 177px;
+  left: 814px;
+}
+.faqs2 {
+  top: 237px;
+  left: 866px;
+}
+.viber-image-2023-05-03-12-28-3-icon5 {
+  position: absolute;
+  top: 0;
+  left: 98px;
+  width: 182px;
+  height: 82px;
+  object-fit: cover;
+}
+.authenticate-showcase-and4 {
+  position: absolute;
+  top: 104px;
+  left: 36px;
+  font-weight: 500;
+}
+.lorem-ipsum-dolor4 {
+  position: absolute;
+  top: 148px;
+  left: 0;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  width: 378px;
+}
+.viber-image-2023-05-03-12-28-3-parent {
+  position: absolute;
+  top: 103px;
+  left: 95px;
+  width: 378px;
+  height: 202px;
+  font-size: var(--font-size-lg);
+}
+.group-icon1,
+.social-media2 {
+  position: absolute;
+  top: 103px;
+  left: 1131px;
+}
+.group-icon1 {
+  height: 10.93%;
+  width: 3.41%;
+  top: 36.71%;
+  right: 13.35%;
+  bottom: 52.36%;
+  left: 83.24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-child70 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  border: 2px solid var(--color-darkgoldenrod);
+  box-sizing: border-box;
+  width: 48.7px;
+  height: 48.7px;
+}
+.facebook-icon2 {
+  position: absolute;
+  top: 4.87px;
+  left: 4.87px;
+  width: 38.96px;
+  height: 38.96px;
+  overflow: hidden;
+}
+.frame-child,
+.rectangle-parent19 {
+  position: absolute;
+  top: 165px;
+  left: 1126px;
+  width: 48.7px;
+  height: 48.7px;
+}
+.frame-child {
+  height: 10.74%;
+  width: 3.34%;
+  top: 36.75%;
+  right: 8.35%;
+  bottom: 52.51%;
+  left: 88.32%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame-item {
+  position: absolute;
+  top: 402px;
+  left: 0;
+  background-color: var(--color-darkslategray-200);
+  width: 1436px;
+  height: 47px;
+}
+.xure-deal-all2 {
+  position: absolute;
+  top: 414px;
+  left: calc(50% - 272px);
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 544px;
+}
+.about-parent {
+  position: absolute;
+  top: 1486px;
+  left: 0;
+  background-color: var(--color-gray-400);
+  width: 1440px;
+  height: 449px;
+  overflow: hidden;
+  font-size: var(--font-size-6xl);
+}
+.group-child71,
+.home4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.group-child71 {
+  background-color: var(--color-darkslategray-200);
+  width: 1440px;
+  height: 88px;
+}
+.home4 {
+  font-weight: 500;
+}
+.component-12 {
+  position: absolute;
+  top: 32px;
+  left: 667px;
+  width: 57px;
+  height: 24px;
+}
+.viber-image-2023-05-03-12-28-3-icon6 {
+  position: absolute;
+  top: 22px;
+  left: 56px;
+  width: 100px;
+  height: 45px;
+  object-fit: cover;
+}
+.component-2 {
+  position: absolute;
+  top: 32px;
+  left: 769px;
+  width: 124px;
+  height: 24px;
+}
+.component-3,
+.component-4,
+.component-5 {
+  position: absolute;
+  top: 32px;
+  left: 938px;
+  width: 107px;
+  height: 24px;
+}
+.component-4,
+.component-5 {
+  left: 1090px;
+  width: 124px;
+}
+.component-5 {
+  left: 1259px;
+  width: 105px;
+}
+.user-guide4 {
+  position: absolute;
+  top: 32px;
+  left: 938px;
+  font-weight: 500;
+  color: var(--color-darkgoldenrod);
+}
+.rectangle-parent20 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 88px;
+  text-align: left;
+}
+.user-guide-desktop {
+  position: relative;
+  background-color: var(--color-gray-600);
+  width: 100%;
+  height: 1935px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

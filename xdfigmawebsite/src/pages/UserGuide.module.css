@@ -1,0 +1,444 @@
+.rectangleDiv,
+.userGuideChild,
+.userGuideChild1,
+.userGuideInner,
+.userGuideItem {
+  position: absolute;
+  top: 453px;
+  left: calc(50% - 729px);
+  border-radius: var(--br-mini);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(255, 255, 255, 0.03)
+  );
+  box-shadow: 0 8px 11px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(80px);
+  width: 466px;
+  height: 364px;
+}
+.rectangleDiv,
+.userGuideChild1,
+.userGuideInner,
+.userGuideItem {
+  left: calc(50% - 233px);
+}
+.rectangleDiv,
+.userGuideChild1,
+.userGuideInner {
+  left: calc(50% + 263px);
+}
+.rectangleDiv,
+.userGuideChild1 {
+  top: 1005px;
+}
+.userGuideChild1 {
+  left: calc(50% - 233px);
+}
+.usersIcon {
+  position: absolute;
+  top: 1063px;
+  left: 776px;
+  width: 175px;
+  height: 175px;
+  overflow: hidden;
+}
+.userGuideChild2 {
+  position: absolute;
+  top: 1005px;
+  left: calc(50% - 729px);
+  border-radius: var(--br-mini);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(255, 255, 255, 0.03)
+  );
+  box-shadow: 0 8px 11px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(80px);
+  width: 466px;
+  height: 364px;
+}
+.ellipseDiv,
+.userGuideChild3 {
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipseDiv {
+  top: -520px;
+  left: 734px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(95, 0, 189, 0.33),
+    rgba(23, 23, 23, 0.03)
+  );
+  width: 1634px;
+  height: 1249px;
+}
+.userGuideChild3 {
+  top: 1098px;
+  left: -428px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(95, 0, 189, 0.33),
+    rgba(23, 23, 23, 0.13)
+  );
+  width: 1667px;
+  height: 1068px;
+}
+.online,
+.physical {
+  position: absolute;
+  top: 373px;
+  left: 147px;
+  font-size: var(--font-size-31xl);
+  text-align: left;
+}
+.online {
+  top: 927px;
+}
+.userGuideChild4,
+.userGuideChild5 {
+  position: absolute;
+  top: 453px;
+  left: 135px;
+  border-radius: var(--br-mini);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 466px;
+  height: 364px;
+}
+.userGuideChild5 {
+  left: 631px;
+}
+.verifiedProfileIcon {
+  position: absolute;
+  top: 531px;
+  left: 799px;
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+}
+.userGuideChild6 {
+  position: absolute;
+  top: 453px;
+  left: 1127px;
+  border-radius: var(--br-mini);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 466px;
+  height: 364px;
+}
+.authenticationProcessIs,
+.itemsAreAuthenticated,
+.itemsWillBe {
+  position: absolute;
+  top: 709px;
+  left: 173px;
+  display: inline-block;
+  width: 389px;
+}
+.authenticationProcessIs,
+.itemsWillBe {
+  top: 701px;
+  left: 673px;
+  width: 381px;
+}
+.itemsWillBe {
+  left: 1169px;
+}
+.userGuideChild7,
+.userGuideChild8,
+.userGuideChild9 {
+  position: absolute;
+  top: 1005px;
+  left: 135px;
+  border-radius: var(--br-mini);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 466px;
+  height: 364px;
+}
+.userGuideChild8,
+.userGuideChild9 {
+  left: 631px;
+}
+.userGuideChild9 {
+  left: 1127px;
+}
+.itemsCanBe {
+  position: absolute;
+  top: 1259px;
+  left: 161px;
+  display: inline-block;
+  width: 414px;
+}
+.authenticationProcessIs1,
+.itemsWillBe1 {
+  position: absolute;
+  top: 1253px;
+  left: 673px;
+  display: inline-block;
+  width: 381px;
+}
+.itemsWillBe1 {
+  top: 1259px;
+  left: 1170px;
+}
+.layer1Icon {
+  position: absolute;
+  top: 511px;
+  left: 1273px;
+  width: 173px;
+  height: 170px;
+  overflow: hidden;
+}
+.groupIcon {
+  position: absolute;
+  top: 1063px;
+  left: 1253px;
+  width: 213.74px;
+  height: 159px;
+  object-fit: cover;
+}
+.about {
+  position: absolute;
+  top: 103px;
+  left: calc(50% + 26px);
+}
+.contactUs,
+.faqs,
+.privacyPolicy,
+.termsOfUse {
+  position: absolute;
+  top: 239px;
+  left: 745px;
+  font-weight: 500;
+}
+.contactUs,
+.faqs,
+.privacyPolicy {
+  top: 180px;
+  left: 757px;
+}
+.faqs,
+.privacyPolicy {
+  top: 177px;
+  left: 958px;
+}
+.faqs {
+  top: 237px;
+  left: 1010px;
+}
+.viberImage2023050312283Icon {
+  position: absolute;
+  top: 0;
+  left: 82px;
+  width: 262px;
+  height: 118px;
+  object-fit: cover;
+}
+.authenticateShowcaseAnd {
+  position: absolute;
+  top: 153px;
+  left: 0;
+  font-weight: 500;
+}
+.loremIpsumDolor {
+  position: absolute;
+  top: 199px;
+  left: 0;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  width: 425px;
+}
+.viberImage2023050312283Parent {
+  position: absolute;
+  top: 81px;
+  left: 129px;
+  width: 425px;
+  height: 253px;
+}
+.groupIcon1,
+.socialMedia {
+  position: absolute;
+  top: 103px;
+  left: 1320px;
+}
+.groupIcon1 {
+  height: 10.93%;
+  width: 2.84%;
+  top: 36.71%;
+  right: 16.85%;
+  bottom: 52.36%;
+  left: 80.31%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  border: 2px solid var(--color-darkgoldenrod);
+  box-sizing: border-box;
+  width: 48.7px;
+  height: 48.7px;
+}
+.facebookIcon {
+  position: absolute;
+  top: 4.87px;
+  left: 4.87px;
+  width: 38.96px;
+  height: 38.96px;
+  overflow: hidden;
+}
+.frameChild,
+.rectangleParent {
+  position: absolute;
+  top: 165px;
+  left: 1315px;
+  width: 48.7px;
+  height: 48.7px;
+}
+.frameChild {
+  height: 10.74%;
+  width: 2.78%;
+  top: 36.75%;
+  right: 12.68%;
+  bottom: 52.51%;
+  left: 84.54%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameItem {
+  position: absolute;
+  top: 402px;
+  left: 0;
+  background-color: var(--color-darkslategray-200);
+  width: 1728px;
+  height: 47px;
+}
+.xureDealAll {
+  position: absolute;
+  top: 414px;
+  left: calc(50% - 272px);
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 544px;
+}
+.aboutParent {
+  position: absolute;
+  top: 1551px;
+  left: 0;
+  background-color: var(--color-gray-300);
+  width: 1728px;
+  height: 449px;
+  overflow: hidden;
+  font-size: var(--font-size-6xl);
+}
+.userGuide1 {
+  position: absolute;
+  top: 178px;
+  left: calc(50% - 217px);
+  font-size: var(--font-size-61xl);
+  text-align: left;
+}
+.lineDiv {
+  position: absolute;
+  top: 292px;
+  left: calc(50% - 325px);
+  width: 650px;
+  height: 0;
+}
+.globeIcon,
+.shieldAccessIcon {
+  position: absolute;
+  top: 1068px;
+  left: 293px;
+  width: 149px;
+  height: 149px;
+  overflow: hidden;
+}
+.shieldAccessIcon {
+  top: 522px;
+  left: 294px;
+  width: 148px;
+  height: 148px;
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray-200);
+  width: 1728px;
+  height: 75px;
+}
+.viberImage2023050312283Icon1 {
+  position: absolute;
+  top: 15px;
+  left: 75px;
+  width: 100px;
+  height: 45px;
+  object-fit: cover;
+}
+.home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.component1,
+.component2 {
+  position: absolute;
+  top: 25px;
+  left: 914px;
+  width: 57px;
+  height: 24px;
+}
+.component2 {
+  left: 1016px;
+  width: 124px;
+}
+.component4 {
+  left: 1337px;
+  width: 124px;
+  height: 24px;
+}
+.component4,
+.component5,
+.userGuide2 {
+  position: absolute;
+  top: 25px;
+}
+.component5 {
+  left: 1506px;
+  width: 105px;
+  height: 24px;
+}
+.userGuide2 {
+  left: 1185px;
+  font-weight: 500;
+  color: var(--color-darkgoldenrod);
+}
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1728px;
+  height: 75px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.userGuide {
+  position: relative;
+  background-color: var(--color-gray-500);
+  width: 100%;
+  height: 2000px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

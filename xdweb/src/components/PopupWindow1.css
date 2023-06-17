@@ -1,0 +1,93 @@
+.authenticate-your-item1 {
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 140.5px);
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.popup-window-item {
+  position: absolute;
+  top: 106px;
+  left: calc(50% - 135.5px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 271px;
+  height: 271px;
+}
+.camera-icon {
+  position: absolute;
+  top: 174px;
+  left: calc(50% - 67.5px);
+  width: 135px;
+  height: 135px;
+  overflow: hidden;
+}
+.popup-window-inner {
+  position: absolute;
+  top: 31px;
+  left: 511px;
+  width: 22px;
+  height: 22px;
+}
+.group-child91 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 241.5px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 483px;
+  height: 50px;
+}
+.upload-icon {
+  position: absolute;
+  top: 8px;
+  left: 141px;
+  width: 34px;
+  height: 34px;
+  object-fit: cover;
+}
+.upload-qr-code {
+  position: absolute;
+  top: 13px;
+  left: 184px;
+  font-weight: 500;
+}
+.rectangle-parent30 {
+  position: absolute;
+  top: 403px;
+  left: calc(50% - 241.5px);
+  width: 483px;
+  height: 50px;
+}
+.enter-item-code1 {
+  position: absolute;
+  top: 14px;
+  left: 145px;
+  font-weight: 500;
+  display: inline-block;
+  width: 194px;
+  height: 21.43px;
+}
+.rectangle-parent31 {
+  position: absolute;
+  top: 463px;
+  left: calc(50% - 241.5px);
+  width: 483px;
+  height: 50px;
+  text-align: center;
+}
+.popup-window1 {
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-gray-500);
+  box-shadow: 1px 7px 10px rgba(0, 0, 0, 0.25);
+  width: 561px;
+  height: 561px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-inter);
+}

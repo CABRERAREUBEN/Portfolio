@@ -1,0 +1,721 @@
+.ellipseDiv,
+.homeChild,
+.homeChild1,
+.homeInner,
+.homeItem {
+  position: absolute;
+  top: 859px;
+  left: -358px;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(95, 0, 189, 0.33),
+    rgba(23, 23, 23, 0.23)
+  );
+  width: 758px;
+  height: 1068px;
+}
+.ellipseDiv,
+.homeChild1,
+.homeInner,
+.homeItem {
+  top: 3080px;
+  left: -766px;
+  width: 1220px;
+  height: 1919px;
+}
+.ellipseDiv,
+.homeChild1,
+.homeInner {
+  top: 4729px;
+  left: 454px;
+  width: 2047px;
+  height: 844px;
+}
+.ellipseDiv,
+.homeChild1 {
+  top: -406px;
+  left: 887px;
+  width: 1634px;
+  height: 1249px;
+}
+.homeChild1 {
+  top: 1320px;
+  left: 1383px;
+  width: 1053px;
+  height: 3163px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 1183px;
+  left: calc(50% - 822px);
+  border-radius: var(--br-16xl);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.09),
+    rgba(255, 255, 255, 0.07)
+  );
+  box-shadow: 0 8px 11px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(80px);
+  width: 1644px;
+  height: 2857px;
+}
+.exhibitionIphone13starlightPIcon {
+  position: absolute;
+  top: 2050px;
+  left: 171px;
+  border-radius: var(--br-61xl);
+  width: 617px;
+  height: 1211px;
+  object-fit: cover;
+}
+.authenticationIphone13starligIcon {
+  position: absolute;
+  top: 0;
+  left: -22px;
+  width: 635px;
+  height: 888px;
+  object-fit: cover;
+}
+.authenticationIphone13starlig {
+  position: absolute;
+  top: 18px;
+  left: 21px;
+  border-radius: var(--br-61xl) var(--br-61xl) 0 0;
+  background: linear-gradient(180deg, transparent 46.3%, #000);
+  width: 549px;
+  height: 823px;
+}
+.authenticationIphone13starligParent,
+.homeChild2 {
+  position: absolute;
+  top: 1476px;
+  left: 1008px;
+  width: 591px;
+  height: 841px;
+}
+.homeChild2 {
+  top: 378px;
+  left: 1085px;
+  background-color: var(--color-darkslategray-200);
+  width: 526px;
+  height: 526px;
+}
+.authenticateShowcaseAnd {
+  top: 289px;
+  font-size: var(--font-size-61xl);
+  font-weight: 600;
+  width: 853px;
+}
+.authenticateShowcaseAnd,
+.categories,
+.thePremierCollectible {
+  position: absolute;
+  left: 128px;
+  display: inline-block;
+}
+.categories {
+  top: 528px;
+  font-size: 55px;
+  color: var(--color-darkgoldenrod);
+  width: 675px;
+}
+.thePremierCollectible {
+  top: 640px;
+  font-weight: 300;
+  width: 759px;
+}
+.image3Icon,
+.image4Icon {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  width: 224px;
+  height: 67px;
+  object-fit: cover;
+}
+.image4Icon {
+  left: 239px;
+}
+.availableNow,
+.image3Parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.image3Parent {
+  top: 899px;
+  left: 128px;
+  width: 463px;
+  height: 111px;
+  font-size: var(--font-size-6xl);
+}
+.contactUs,
+.howXureDeal {
+  position: absolute;
+  font-size: var(--font-size-71xl);
+  display: inline-block;
+}
+.howXureDeal {
+  top: 1275px;
+  left: calc(50% - 502px);
+  text-align: center;
+  width: 1005px;
+}
+.contactUs {
+  top: 0;
+  left: calc(50% - 753.5px);
+  color: var(--color-white);
+  width: 501px;
+}
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 35.59px;
+  left: 544.5px;
+  width: 150px;
+  height: 36.82px;
+}
+.groupItem {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1507px;
+  height: 89px;
+}
+.fullName {
+  position: absolute;
+  top: 24px;
+  left: 42px;
+}
+.rectangleContainer,
+.rectangleGroup,
+.rectangleParent {
+  position: absolute;
+  top: 188px;
+  left: 0;
+  width: 1507px;
+  height: 89px;
+}
+.rectangleContainer,
+.rectangleGroup {
+  top: 302px;
+}
+.rectangleContainer {
+  top: 416px;
+}
+.groupChild2,
+.groupChild3,
+.groupDiv {
+  position: absolute;
+  left: 0;
+  width: 1507px;
+  height: 264px;
+}
+.groupChild2 {
+  top: 0;
+  border-radius: var(--br-mini);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+}
+.groupChild3,
+.groupDiv {
+  top: 530px;
+}
+.groupChild3 {
+  top: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-darkgoldenrod);
+  width: 299px;
+  height: 73px;
+}
+.sendMessage {
+  position: absolute;
+  top: 19px;
+  left: 43px;
+  font-weight: 600;
+}
+.rectangleParent1 {
+  position: absolute;
+  top: 826px;
+  left: 1208px;
+  width: 299px;
+  height: 73px;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+}
+.contactUsParent {
+  position: absolute;
+  top: 4140px;
+  left: calc(50% - 753px);
+  width: 1507px;
+  height: 899px;
+  font-size: var(--font-size-16xl);
+  color: var(--color-darkslategray-100);
+}
+.areYouReady,
+.homeChild3 {
+  position: absolute;
+  left: 128px;
+}
+.areYouReady {
+  top: 736px;
+  font-size: var(--font-size-6xl);
+}
+.homeChild3 {
+  top: 780px;
+  border-radius: var(--br-3xs);
+  background-color: #242424;
+  box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.25);
+  width: 536px;
+  height: 93px;
+}
+.div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.days {
+  top: 48px;
+  left: 4px;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+}
+.days,
+.hours,
+.parent {
+  position: absolute;
+}
+.parent {
+  top: 793px;
+  left: 172px;
+  width: 45px;
+  height: 66px;
+  text-align: center;
+}
+.hours {
+  top: 48px;
+  left: 5px;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+}
+.group {
+  top: 793px;
+  left: 302px;
+  width: 53px;
+  height: 66px;
+  text-align: center;
+}
+.div2,
+.group,
+.minutes {
+  position: absolute;
+}
+.div2 {
+  top: 0;
+  left: 2px;
+  font-weight: 600;
+}
+.minutes {
+  top: 48px;
+  left: 0;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+}
+.container {
+  top: 793px;
+  left: 434px;
+  width: 57px;
+  height: 66px;
+  text-align: center;
+}
+.container,
+.div3,
+.parent1 {
+  position: absolute;
+}
+.div3 {
+  top: 0;
+  left: 4px;
+  font-weight: 600;
+}
+.parent1 {
+  top: 793px;
+  left: 566px;
+  width: 62px;
+  height: 66px;
+  text-align: center;
+}
+.groupIcon,
+.homeChild4,
+.homeChild5 {
+  position: absolute;
+  top: 813px;
+  left: 258px;
+  width: 8px;
+  height: 28px;
+}
+.homeChild4,
+.homeChild5 {
+  left: 392px;
+}
+.homeChild5 {
+  left: 526px;
+}
+.authenticationIphone13starlig1 {
+  position: absolute;
+  top: 17px;
+  left: 21px;
+  border-radius: var(--br-61xl) var(--br-61xl) 0 0;
+  background: linear-gradient(180deg, transparent 46.3%, #000);
+  width: 549px;
+  height: 823px;
+}
+.exchangeIphone13starlightPorParent,
+.groupChild4 {
+  position: absolute;
+  top: 3049px;
+  left: 1008px;
+  width: 591px;
+  height: 840px;
+}
+.groupChild4 {
+  top: 13px;
+  left: 0;
+  width: 144px;
+  height: 144px;
+}
+.haveYourItems {
+  position: absolute;
+  top: 98px;
+  left: 0;
+  font-size: var(--font-size-11xl);
+  text-align: justify;
+  display: inline-block;
+  width: 579px;
+}
+.lineDiv {
+  position: absolute;
+  top: 71px;
+  left: -2px;
+  border-top: 4px solid var(--color-darkgoldenrod);
+  box-sizing: border-box;
+  width: 661px;
+  height: 4px;
+}
+.groupParent,
+.theAuthenticationParent {
+  position: absolute;
+  top: 0;
+  left: 174px;
+  width: 657px;
+  height: 170px;
+}
+.groupParent {
+  top: 1663px;
+  left: 186px;
+  width: 831px;
+  text-align: center;
+}
+.groupChild5 {
+  position: absolute;
+  top: 31px;
+  left: 626px;
+  width: 144px;
+  height: 144px;
+}
+.theExhibition {
+  position: absolute;
+  top: 0;
+  left: 316px;
+}
+.showcaseYourAuthenticated {
+  position: absolute;
+  top: 98px;
+  left: 81px;
+  font-size: var(--font-size-11xl);
+  text-align: right;
+  display: inline-block;
+  width: 516px;
+}
+.groupChild6 {
+  position: absolute;
+  top: 71px;
+  left: -2px;
+  border-top: 4px solid var(--color-darkgoldenrod);
+  box-sizing: border-box;
+  width: 601px;
+  height: 4px;
+}
+.groupContainer,
+.theExhibitionParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 597px;
+  height: 206px;
+}
+.groupContainer {
+  top: 2588px;
+  left: 764px;
+  width: 770px;
+}
+.buyAndSell,
+.theExchange {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 279.02px;
+}
+.buyAndSell {
+  top: 98px;
+  font-size: var(--font-size-11xl);
+  width: 585px;
+}
+.groupChild8 {
+  position: absolute;
+  top: 71px;
+  left: -2px;
+  border-top: 4px solid var(--color-darkgoldenrod);
+  box-sizing: border-box;
+  width: 660px;
+  height: 4px;
+}
+.groupParent1,
+.theExchangeParent {
+  position: absolute;
+  top: 0;
+  left: 174px;
+  width: 656px;
+  height: 170px;
+}
+.groupParent1 {
+  top: 3472px;
+  left: 186px;
+  width: 830px;
+}
+.about {
+  position: absolute;
+  top: 103px;
+  left: calc(50% + 26px);
+}
+.contactUs1,
+.faqs,
+.privacyPolicy,
+.termsOfUse {
+  position: absolute;
+  top: 239px;
+  left: 745px;
+  font-weight: 500;
+}
+.contactUs1,
+.faqs,
+.privacyPolicy {
+  top: 180px;
+  left: 757px;
+}
+.faqs,
+.privacyPolicy {
+  top: 177px;
+  left: 958px;
+}
+.faqs {
+  top: 237px;
+  left: 1010px;
+}
+.viberImage2023050312283Icon {
+  position: absolute;
+  top: 0;
+  left: 82px;
+  width: 262px;
+  height: 118px;
+  object-fit: cover;
+}
+.authenticateShowcaseAnd1 {
+  position: absolute;
+  top: 148px;
+  left: 0;
+  font-weight: 500;
+}
+.loremIpsumDolor {
+  position: absolute;
+  top: 194px;
+  left: 0;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  width: 425px;
+}
+.viberImage2023050312283Parent {
+  position: absolute;
+  top: 86px;
+  left: 129px;
+  width: 425px;
+  height: 248px;
+}
+.groupIcon1,
+.socialMedia {
+  position: absolute;
+  top: 103px;
+  left: 1320px;
+}
+.groupIcon1 {
+  height: 10.93%;
+  width: 2.84%;
+  top: 36.71%;
+  right: 16.85%;
+  bottom: 52.36%;
+  left: 80.31%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupChild9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  border: 2px solid var(--color-darkgoldenrod);
+  box-sizing: border-box;
+  width: 48.7px;
+  height: 48.7px;
+}
+.facebookIcon {
+  position: absolute;
+  top: 4.87px;
+  left: 4.87px;
+  width: 38.96px;
+  height: 38.96px;
+  overflow: hidden;
+}
+.frameChild,
+.rectangleParent2 {
+  position: absolute;
+  top: 165px;
+  left: 1315px;
+  width: 48.7px;
+  height: 48.7px;
+}
+.frameChild {
+  height: 10.74%;
+  width: 2.78%;
+  top: 36.75%;
+  right: 12.68%;
+  bottom: 52.51%;
+  left: 84.54%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameItem {
+  position: absolute;
+  top: 402px;
+  left: 0;
+  background-color: var(--color-darkslategray-200);
+  width: 1728px;
+  height: 47px;
+}
+.xureDealAll {
+  position: absolute;
+  top: 414px;
+  left: calc(50% - 272px);
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 544px;
+}
+.aboutParent {
+  position: absolute;
+  top: 5124px;
+  left: 1px;
+  background-color: var(--color-gray-300);
+  width: 1728px;
+  height: 449px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+}
+.groupChild10,
+.home1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.groupChild10 {
+  background-color: var(--color-darkslategray-200);
+  width: 1728px;
+  height: 75px;
+}
+.home1 {
+  font-weight: 500;
+}
+.component1 {
+  position: absolute;
+  top: 25px;
+  left: 914px;
+  width: 57px;
+  height: 24px;
+}
+.viberImage2023050312283Icon1 {
+  position: absolute;
+  top: 15px;
+  left: 75px;
+  width: 100px;
+  height: 45px;
+  object-fit: cover;
+}
+.component2,
+.component3,
+.component4,
+.component5 {
+  position: absolute;
+  top: 25px;
+  left: 1016px;
+  width: 124px;
+  height: 24px;
+}
+.component3,
+.component4,
+.component5 {
+  left: 1185px;
+  width: 107px;
+}
+.component4,
+.component5 {
+  left: 1337px;
+  width: 124px;
+}
+.component5 {
+  left: 1506px;
+  width: 105px;
+}
+.image2Icon,
+.rectangleParent3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1728px;
+}
+.rectangleParent3 {
+  height: 75px;
+  font-size: var(--font-size-xl);
+}
+.image2Icon {
+  height: 90px;
+  object-fit: cover;
+  display: none;
+}
+.home {
+  position: relative;
+  background-color: var(--color-gray-500);
+  width: 100%;
+  height: 5573px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,234 @@
+import React, { useState, useEffect } from 'react';
+import logo from './logo.svg';
+import './App.css';
+import TypingAnimation from './TypingAnimation';
+import imageSrc from './img/userguide.png';
+import imageSrc1 from './img/works.png';
+import gplay from './img/button-google-play.png';
+import appay from './img/button-app-store.png';
+import shoes from './img/shoes.png';
+import watches from './img/watches.png';
+import bag from './img/bags.png';
+import jewelry from './img/jewelry.png';
+import collectibles from './img/coll.png';
+import artwork from './img/artwork.png';
+
+function App() {
+  const imgStyles = {
+    width: '180px',
+    height: '80px',
+    paddingTop: '20px',
+    marginRight: '10px'
+    
+  };
+  const containerStyles = {
+    display: 'flex',
+    alignItems: 'center',
+    marginTop: '60px' 
+  };
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  /* const words = ['Shoes', 'Watches', 'Bags', 'Jewelry','Collectibles','Artwork']; */
+  const words = [
+    { text: 'Shoes', image: shoes},
+    { text: 'Watches', image:watches },
+    { text: 'Bags', image: bag },
+    { text: 'Jewelry', image: jewelry},
+    { text: 'Collectibles', image: collectibles },
+    { text: 'Artwork', image: artwork },
+  ];
+  
+  return (
+    <div className="App">
+      <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>X</span>ure <span>D</span>eal</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+           <li><a href="#verify" data-after="Verify">Authenticate</a></li> 
+            <li><a href="#userguide" data-after="userguide">User Guide</a></li>
+            <li><a href="#works" data-after="works">How it Works?</a></li>
+            <li><a href="#contact" data-after="Contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1 style={{ fontSize: '58px' }}>Authenticate, Showcase, and <span></span></h1>
+        <h1 style={{ fontSize: '58px' }}>Trade <span></span></h1>
+        <h1 style={{ fontSize: '58px' }}><TypingAnimation words={words.map(item => item.text)} typingSpeed={150} /></h1>
+        <div style={containerStyles}>
+        <img src={gplay} alt="Image Description" style={imgStyles}/>
+        <img src={appay} alt="Image Description"style={imgStyles} />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="verify">
+    <div class="hero container">
+      <div>
+      <h1>Authenticate</h1>
+      <input type="text" placeholder="Enter text" />
+      <input type="submit" value="Submit" />
+      </div>
+    </div>
+  </section>
+
+  <section id="userguide">
+    <div class="hero container">
+    <div className={`scrollable-container ${isScrolled ? 'scrolled' : ''}`}>
+    <div className="text-container">
+        <h1>User Guide</h1>
+        <img src={imageSrc} alt="Image Description" />
+      </div>
+      <div className="center-line" />
+    </div>
+    </div>
+  </section>
+  
+  <section id="works">
+    <div class="hero container">
+    <div className={`scrollable-container ${isScrolled ? 'scrolled' : ''}`}>
+    <div className="text-container">
+        <h1>How It Works</h1>
+        <img src={imageSrc1} alt="Image Description" />
+      </div>
+      <div className="center-line" />
+    </div>
+    </div>
+  </section>
+      
+        
+    
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>Us</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <form action="index.php" method="post">
+                           
+                           <div class="row">
+			<h1>Contact Us</h1>
+	</div>
+	<div class="row">
+			<h4>I love to hear from you!</h4>
+	</div>
+                <div class="styled-input wide">
+					<input type="text" name="name" required />
+					<label>Name</label> 
+				</div>
+                <div class="styled-input wide">
+					<input type="text" name="Email" required />
+					<label>Email</label> 
+				</div>
+                <div class="styled-input wide">
+					<input type="text" name="subject"required />
+					<label>Subject</label> 
+				</div>
+                <div class="styled-input wide">
+                <textarea required name="message"></textarea>  
+					<label>Message</label>
+                </div>
+                <div class="btn-lrg submit-btn">Send Message</div>
+                           
+                       </form>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h2>Location:</h2>
+            <h2>Level 39, Marina Bay Financial Centre Tower 2
+10 Marina Boulevard
+Singapore 018983</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+        </section>
+          
+        
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+      <div class="brand">
+          <a href="#hero">
+            <h1><span>X</span>ure <span>D</span>eal</h1>
+          </a>
+        </div>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Level 39, Marina Bay Financial Centre Tower 2
+10 Marina Boulevard</span>Singapore 018983</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+1.555.555.5555</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@company.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+        </div>
+        
+      
+  );
+}
+
+export default App;
