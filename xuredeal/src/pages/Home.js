@@ -382,7 +382,8 @@ function Home() {
                 <div>
                     <div >
                         <div className="text-container">
-                            <h1 style={{ fontSize: '50px', fontWeight: 'extra bold', paddingTop: '60px', marginLeft: '-40px' }}>How Xure Deal Works?</h1>
+                            <h1 style={{ fontSize: '40px', fontWeight: 'bold', paddingTop: '20px', marginLeft: '10px', marginRight: '10px', textAlign: 'center' }}>How Xure Deal Works?</h1>
+
                             <div class="middle-line">
                                 <div class="left-text">
 
@@ -466,11 +467,11 @@ function Home() {
 
             <!-- Contact Section --> */}
             <section id="contact">
-                <div class="contact container">
-                    <div>
-                        <h1 class="section-title" style={{ color: "white" }}>Contact <span>Us</span></h1>
-                    </div>
-                    <div class="contact-items">
+                {/* <div class="contact container"> */}
+                <div>
+                    <h1 class="section-title" style={{ color: "white" }}>Contact <span>Us</span></h1>
+                </div>
+                {/* <div class="contact-items">
                         <div class="contact-item">
 
                             <div class="contact-info">
@@ -511,8 +512,22 @@ function Home() {
                             </div>
                         </div>
 
-                    </div>
+                    </div> */}
+
+                <div class="containercontact">
+                    <form action="/action_page.php">
+                        <input type="text" id="fname" name="firstname" placeholder="Name" />
+
+                        <input type="email" id="email" name="lastname" placeholder="Email Address" />
+
+                        <input type="text" id="subject" name="lastname" placeholder="Subject" />
+
+                        <textarea id="message" name="Message" placeholder="Your Message"></textarea>
+
+                        <input type="submit" value="Submit" />
+                    </form>
                 </div>
+                {/* </div> */}
             </section>
 
             {/* <!-- End Contact Section -->

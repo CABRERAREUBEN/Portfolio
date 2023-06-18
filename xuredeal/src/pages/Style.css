@@ -902,7 +902,7 @@ p {
 /* Hero Section */
 #works {
     background-image: url(./img/slideshow_1.gif);
-    background-size: 350px 720px;
+    background-size: 350px 670px;
     background-repeat: no-repeat;
     background-position: calc(80% + 120px) 20px;
     position: relative;
@@ -1755,4 +1755,50 @@ button:hover {
         max-width: 250px;
         margin-left: 20px;
     }
+}
+
+/* new */
+
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+} */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: transparent;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: #ad8200;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #531a89;
+}
+
+.containercontact {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 100px;
+    margin-top: -70px;
 }
