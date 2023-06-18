@@ -844,7 +844,7 @@ p {
 
 }
 
-/* clock*/
+/* clock */
 .countdown-container {
     text-align: center;
     justify-content: flex-start;
@@ -854,7 +854,6 @@ p {
 .countdown-box {
     display: flex;
     flex-wrap: wrap;
-    /* Allow items to wrap to the next line */
     justify-content: flex-start;
     gap: 20px;
     background-color: rgba(255, 255, 255, 0.2);
@@ -863,12 +862,10 @@ p {
     margin-right: 420px;
     margin-bottom: 10px;
     border-radius: 10px;
-
 }
 
 .countdown-item {
     text-align: center;
-
 }
 
 .countdown-item p {
@@ -886,15 +883,19 @@ p {
 
     /* Adjust styling for screens up to 768px wide (e.g., tablets) */
     .countdown-box {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: -40px;
+        margin-right: 1px;
+        flex-wrap: nowrap;
+        /* Prevent items from wrapping */
+        overflow-x: auto;
+        /* Add horizontal scrolling if needed */
     }
 
     .countdown-item {
-        flex: 1 0 100%;
-        /* Take up full width on smaller screens */
-        max-width: 100%;
-        /* Remove maximum width */
+        flex: 0 0 auto;
+        /* Reset flex properties to the default */
+        max-width: none;
+        /* Reset maximum width */
     }
 }
 

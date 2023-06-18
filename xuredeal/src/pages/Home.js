@@ -40,11 +40,11 @@ import gif from './img/slideshow_1.gif';
 function Home() {
 
     const imgStyles = {
-        width: '163px',
+        width: '173px',
         height: '80px',
         paddingTop: '20px',
         marginRight: '10px',
-        marginLeft: '-50px'
+        marginLeft: '-61px'
     };
 
     const img1Styles = {
@@ -61,12 +61,30 @@ function Home() {
         marginRight: '10px'
     };
 
-    const containerStyles = {
+    // const containersStyles = {
+    //     display: 'flex',
+    //     alignItems: 'center',
+    //     marginTop: '-10px',
+    //     marginLeft: '50px',
+    // };
+
+    const containersStyles = {
         display: 'flex',
         alignItems: 'center',
-        marginTop: '-10px'
+        marginTop: '-10px',
+        marginLeft: '5%',
     };
 
+    // Media Query for small screens
+    const mediaQuery = `@media (max-width: 768px) {
+  containersStyles.marginLeft = '2%';
+}`;
+
+    // Apply media query to adjust styles for small screens
+    const styleSheet = document.createElement('style');
+    styleSheet.type = 'text/css';
+    styleSheet.textContent = mediaQuery;
+    document.head.appendChild(styleSheet);
     // Media Query Styles
     const mediaQueryStyles = {
         '@media (max-width: 768px)': {
@@ -284,7 +302,8 @@ function Home() {
                         <h1 style={{ fontSize: '34px', fontWeight: 'normal' }}>The premier collectible haven </h1>
                         <div>
                             <div className="countdown-container">
-                                <h1 style={{ fontSize: '24px', fontWeight: 'normal', paddingBottom: '10px' }}>Launching In </h1>
+                                {/* <h1 style={{ fontSize: '24px', fontWeight: 'normal', paddingBottom: '10px' }}>Launching In </h1> */}
+                                <h1 style={{ fontSize: '18px', fontWeight: 'normal', paddingBottom: '5px', paddingLeft: '10px', paddingRight: '10px', textAlign: 'center' }}>Launching In</h1>
                                 <div className="countdown-box">
                                     <div className="countdown-item">
                                         <p>{timeRemaining.months}</p>
@@ -309,8 +328,8 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <h1 style={{ fontSize: '24px', fontWeight: 'normal' }}>Launching In</h1>
-                        <div style={containerStyles}>
+                        {/* <h1 style={{ fontSize: '24px', fontWeight: 'normal' }}>Launching In</h1> */}
+                        <div style={containersStyles}>
                             <img src={gplay} alt="Image Description" style={imgStyles} />
                             <img src={appay} alt="Image Description" style={img1Styles} />
                         </div>
