@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './QRFormPopUp.css';
 import scan from './img/scan.png';
-
+import { Link } from "react-router-dom";
 const QRFormPopup = () => {
     const [showPopup, setShowPopup] = useState(false);
     const [qrCode, setQRCode] = useState(null);
@@ -106,7 +106,7 @@ const QRFormPopup = () => {
                                     <p>{qrCode}</p>
                                 </div>
                             )}
-                            <button type="submit" style={{ fontFamily: 'Inter' }}>Submit</button>
+                            <button type="submit" style={{ fontFamily: 'Inter' }}> <Link to="/Authenticate" >Authenticate </Link></button>
                         </div>
                     </div>
                 </div>

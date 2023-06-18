@@ -39,6 +39,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   <script src="../src/App.js"></script>
+
   <script>
     function openModal() {
       document.getElementById("myModal").style.display = "block";
@@ -47,6 +48,16 @@
     function closeModal() {
       document.getElementById("myModal").style.display = "none";
     }
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var scrollElement = document.querySelector('body');
+      scrollElement.addEventListener('scroll', function () {
+        var scrollPosition = scrollElement.scrollTop;
+        var backgroundPosition = '0 ' + (-scrollPosition / 2) + 'px'; /* Adjust the scrolling speed by changing the division value */
+        scrollElement.style.backgroundPosition = backgroundPosition;
+      });
+    });
   </script>
 </body>
 
