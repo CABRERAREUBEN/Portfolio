@@ -33,11 +33,14 @@ import globe from './img/Icons-Xure-Deal/Globe.png';
 
 import user from './img/Icons-Xure-Deal/Users.png';
 import g12 from './img/Icons-Xure-Deal/Group 12.png';
+import gplay1 from './img/gplay.png';
+import astore from './img/astore.png';
 import Modal from 'react-modal';
+import gif from './img/slideshow_1.gif';
 function Home() {
 
     const imgStyles = {
-        width: '190px',
+        width: '163px',
         height: '80px',
         paddingTop: '20px',
         marginRight: '10px',
@@ -45,7 +48,7 @@ function Home() {
     };
 
     const img1Styles = {
-        width: '180px',
+        width: '170px',
         height: '80px',
         paddingTop: '20px',
         marginRight: '-55px',
@@ -210,6 +213,7 @@ function Home() {
         setIsModalOpen(false);
     };
 
+
     return (
         <div>
             <section id="header">
@@ -226,7 +230,7 @@ function Home() {
                             </div>
                             <ul>
                                 <li>
-                                    <a href="#hero" data-after="Home">Home</a>
+                                    <a href="#hero" data-after="Home" style={{ fontFamily: 'Inter' }}>Home</a>
                                 </li>
                                 <li>
                                     <QRFormPopup />
@@ -249,12 +253,12 @@ function Home() {
 
                                 </li>
                                 <li>
-                                    <a href="#projects" data-after="Projects"> <Link to="/UserGuide">User Guide </Link></a>
+                                    <a href="#projects" data-after="Projects" style={{ fontFamily: 'Inter' }}> <Link to="/UserGuide" >User Guide </Link></a>
                                 </li>
                                 <li>
-                                    <a href="#works" data-after="works">How it Works</a>
+                                    <a href="#works" data-after="works" style={{ fontFamily: 'Inter' }}>How it Works</a>
                                 </li>
-                                <li><a href="#contact" data-after="Contact">Contact Us</a>
+                                <li><a href="#contact" data-after="Contact" style={{ fontFamily: 'Inter' }}>Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -267,6 +271,7 @@ function Home() {
             <section id="hero">
                 <div class="hero container">
                     <div>
+
                         <h1 style={{ fontSize: '48px', paddingTop: '10px' }}>Authenticate, <span></span></h1>
                         <h1 style={{ fontSize: '48px', paddingTop: '10px' }}>Showcase, and Trade <span></span></h1>
                         <h1 style={{ fontSize: '40px', fontWeight: 'normal', marginLeft: '60px' }}><TypingAnimation words={words} typingSpeed={82} /> </h1>
@@ -304,7 +309,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <h1 style={{ fontSize: '24px', fontWeight: 'normal' }}>Available Now</h1>
+                        <h1 style={{ fontSize: '24px', fontWeight: 'normal' }}>Launching In</h1>
                         <div style={containerStyles}>
                             <img src={gplay} alt="Image Description" style={imgStyles} />
                             <img src={appay} alt="Image Description" style={img1Styles} />
@@ -499,19 +504,19 @@ function Home() {
                 <div class="footer-left">
                     <div class="brand">
                         <img src={xuredeallogo} alt="Image Description" className="footerlogo-image" />
-                        <h4 style={{ color: 'white', fontSize: '22px', textAlign: 'center' }}>Authenticate, Showcase, and Trade</h4>
-                        <p style={{ color: 'white', fontSize: '14px', textAlign: 'center' }}>Level 39, Marina Bay Financial Centre Tower 2 <br /> 10 Marina Boulevard Singapore 018983</p>
+                        <h4 style={{ color: 'white', fontSize: '22px', textAlign: 'center', fontFamily: 'Inter' }}>Authenticate, Showcase, and Trade</h4>
+                        <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontFamily: 'Inter' }}>Level 39, Marina Bay Financial Centre Tower 2 <br /> 10 Marina Boulevard Singapore 018983</p>
                     </div>
                 </div>
 
                 <div class="footer-center">
                     <div>
                         <ul class="grid1-container">
-                            <li class="grid1-title"><h4 style={{ color: 'white', fontSize: '28px', textAlign: 'center' }}>ABOUT</h4></li>
-                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontWeight: 'bold' }}>Contact Us </p></li>
-                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontWeight: 'bold' }}>Privacy Policy</p></li>
-                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontWeight: 'bold' }}>Terms of Use</p></li>
-                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontWeight: 'bold' }}>FAQ's</p></li>
+                            <li class="grid1-title"><h4 style={{ color: 'white', fontSize: '28px', textAlign: 'center', fontFamily: 'Inter' }}>ABOUT</h4></li>
+                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontWeight: 'bold', fontFamily: 'Inter' }}>Contact Us </p></li>
+                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontWeight: 'bold', fontFamily: 'Inter' }}>Privacy Policy</p></li>
+                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontWeight: 'bold', fontFamily: 'Inter' }}>Terms of Use</p></li>
+                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontWeight: 'bold', fontFamily: 'Inter' }}>FAQ's</p></li>
                         </ul>
 
                     </div>
@@ -525,7 +530,7 @@ function Home() {
                 <div class="footer-right">
 
                     <p class="footer-company-about">
-                        <span><h4 style={{ color: 'white', fontSize: '28px', textAlign: 'center' }}>Social Media </h4></span>
+                        <span><h4 style={{ color: 'white', fontSize: '28px', textAlign: 'center', fontFamily: 'Inter' }}>Social Media </h4></span>
                     </p>
 
 
@@ -548,7 +553,7 @@ function Home() {
             </footer>
             <footer>
                 <div class="credits">
-                    <p style={{ color: 'white' }}>&copy; 2023 Xure Deal. All rights reserved.</p>
+                    <p style={{ color: 'white', fontFamily: 'Inter' }}>&copy; 2023 Xure Deal. All rights reserved.</p>
                 </div>
             </footer>
 

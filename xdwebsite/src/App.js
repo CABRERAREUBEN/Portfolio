@@ -278,8 +278,8 @@ function App() {
                 <div className="grid-item"><img src={vp} alt="Image Description" className="check-image" />Authentication process is done by <br /> the authenticator</div>
                 <div className="grid-item"><img src={l1} alt="Image Description" className="check-image" />Items will be tagged as physically<br />verified</div>
                 {/* <div className="grid-title">Online</div> */}
-                <div className="grid-item"><img src={globe} alt="Image Description" className="check-image" />Items can be authenticated remotely, <br /> by authenticators across the globe</div>
-                <div className="grid-item"><img src={user} alt="Image Description" className="check-image" />Authentication process is done by <br /> both the authenticator and you</div>
+                <div className="grid-item"><img src={globe} alt="Image Description" className="check-image" />Items will be tagged as online <br /> verified</div>
+                <div className="grid-item"><img src={user} alt="Image Description" className="check-image" />Items will be tagged as online <br /> verified</div>
                 <div className="grid-item"><img src={g12} alt="Image Description" className="check-image" />Items will be tagged as online <br /> verified</div>
               </div>
             </div>

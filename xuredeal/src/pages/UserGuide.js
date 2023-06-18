@@ -227,7 +227,7 @@ function Home() {
                             </div>
                             <ul>
                                 <li>
-                                    <a href="#" data-after="Home"><Link to="/">Home</Link></a>
+                                    <a href="#" data-after="Home" style={{ fontFamily: 'Inter' }}><Link to="/">Home</Link></a>
                                 </li>
                                 <li>
                                     <QRFormPopup />
@@ -250,12 +250,12 @@ function Home() {
 
                                 </li>
                                 <li>
-                                    <a href="#services" data-after="Projects">User Guide</a>
+                                    <a href="#services" data-after="Projects" style={{ fontFamily: 'Inter' }}>User Guide</a>
                                 </li>
                                 <li>
-                                    <a href="#works" data-after="works">How it Works</a>
+                                    <a href="#" data-after="works" style={{ fontFamily: 'Inter' }}><Link to="/#works">How it Works</Link></a>
                                 </li>
-                                <li><a href="#contact" data-after="Contact">Contact Us</a>
+                                <li><a href="#" data-after="Contact" style={{ fontFamily: 'Inter' }}><Link to="/#contact">Contact Us</Link></a>
                                 </li>
                             </ul>
                         </div>
@@ -272,50 +272,44 @@ function Home() {
                     <div class="service-top">
                         <h1 class="section-title"><span>U</span>ser<span>G</span>uide</h1>
                     </div>
-                    <h1 style={{ fontSize: '48px', paddingTop: '10px', fontWeight: 'lighter' }}>Physical</h1>
+                    <h1 style={{ fontSize: '48px', paddingTop: '10px', fontWeight: 'bold' }}>Physical</h1>
                     <div class="service-bottom">
 
                         <div class="service-item">
-                            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-                            <h2>Web Design</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-                                architecto placeat beatae tenetur officia quod</p>
+                            <div class="icon"><img src={sa} alt="Image Description" className="check-image" /></div>
+                            <h2 style={{ fontWeight: 'normal' }}>Items are authenticated in person</h2>
+
                         </div>
                         <div class="service-item">
-                            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-                            <h2>Web Design</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-                                architecto placeat beatae tenetur officia quod</p>
+                            <div class="icon"><img src={vp} alt="Image Description" className="check-image" /></div>
+                            <h2 style={{ fontWeight: 'normal' }}>Authentication process is done by <br /> the authenticator</h2>
+
                         </div>
                         <div class="service-item">
-                            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-                            <h2>Web Design</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-                                architecto placeat beatae tenetur officia quod</p>
+                            <div class="icon"><img src={l1} alt="Image Description" className="check-image" /></div>
+                            <h2 style={{ fontWeight: 'normal' }}>Items will be tagged as physically<br />verified</h2>
+
                         </div>
 
                     </div>
                 </div>
-                <h1 style={{ fontSize: '48px', paddingTop: '10px', fontWeight: 'lighter' }}>Online</h1>
+                <h1 style={{ fontSize: '48px', paddingTop: '10px', fontWeight: 'bold' }}>Online</h1>
                 <div class="service-bottom">
 
                     <div class="service-item">
-                        <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-                        <h2>Web Design</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-                            architecto placeat beatae tenetur officia quod</p>
+                        <div class="icon"><img src={globe} alt="Image Description" className="check-image" /></div>
+                        <h2 style={{ fontWeight: 'normal' }}>Items will be tagged as online <br /> verified</h2>
+
                     </div>
                     <div class="service-item">
-                        <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-                        <h2>Web Design</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-                            architecto placeat beatae tenetur officia quod</p>
+                        <div class="icon"><img src={user} alt="Image Description" className="check-image" /></div>
+                        <h2 style={{ fontWeight: 'normal' }}>Items will be tagged as online <br /> verified</h2>
+
                     </div>
                     <div class="service-item">
-                        <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-                        <h2>Web Design</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-                            architecto placeat beatae tenetur officia quod</p>
+                        <div class="icon"><img src={g12} alt="Image Description" className="check-image" /></div>
+                        <h2 style={{ fontWeight: 'normal' }}>Items will be tagged as online <br /> verified</h2>
+
                     </div>
 
                 </div>

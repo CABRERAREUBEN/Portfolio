@@ -64,7 +64,7 @@ const QRFormPopup = () => {
     };
     return (
         <div>
-            <a href="#" onClick={openPopup}>Authenticate</a>
+            <a href="#" onClick={openPopup} style={{ fontFamily: 'Inter' }}>Authenticate</a>
 
             {showPopup && (
                 <div className="popup">
@@ -72,28 +72,28 @@ const QRFormPopup = () => {
                         <span className="close" onClick={closePopup}>
                             &times;
                         </span>
-                        <h2>QR Code Form</h2>
-                        <label>
+                        <h2 style={{ fontFamily: 'Inter' }}>QR Code Form</h2>
+                        <label style={{ fontFamily: 'Inter' }}>
                             Scan QR Code:
                             <br />
                             {/* <input type="text" onChange={handleScan} /> */}
                             <img src={scan} alt="Image Description" style={{ width: '100px' }} />
                         </label>
-                        <label>
+                        <label style={{ fontFamily: 'Inter' }}>
                             Upload QR Code:
                             <input type="file" accept="image/*" onChange={handleUpload} />
                         </label>
                         <div>
-                            <a href="#" onClick={handleOpenModal}>Item Code</a>
+                            <a href="#" onClick={handleOpenModal} style={{ fontFamily: 'Inter' }}>Item Code</a>
 
                             {isModalOpen && (
                                 <div className="modal">
                                     <div className="modal-content">
                                         <span className="close" onClick={handleCloseModal}>&times;</span>
                                         <form onSubmit={handleSubmit}>
-                                            <h4>Authenticate your item   </h4>
-                                            <input type="text" name="authenticate" value={formData.authenticate} onChange={handleChange} placeholder="Authenticate" required />
-                                            <button type="submit">Submit</button>
+                                            <h4 style={{ fontFamily: 'Inter' }}>Authenticate your item   </h4>
+                                            <input type="text" name="authenticate" value={formData.authenticate} onChange={handleChange} placeholder="Enter Item Code" required style={{ fontFamily: 'Inter' }} />
+                                            <button type="submit" style={{ fontFamily: 'Inter' }}>Submit</button>
                                         </form>
                                     </div>
                                 </div>
@@ -102,11 +102,11 @@ const QRFormPopup = () => {
                         <div className="result">
                             {qrCode && (
                                 <div>
-                                    <h3>QR Code Result:</h3>
+                                    <h3 style={{ fontFamily: 'Inter' }}>QR Code Result:</h3>
                                     <p>{qrCode}</p>
                                 </div>
                             )}
-                            <button type="submit">Submit</button>
+                            <button type="submit" style={{ fontFamily: 'Inter' }}>Submit</button>
                         </div>
                     </div>
                 </div>
