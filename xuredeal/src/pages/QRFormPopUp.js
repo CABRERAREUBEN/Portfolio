@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './QRFormPopUp.css';
 import scan from './img/scan.png';
 import { Link } from "react-router-dom";
@@ -37,6 +37,7 @@ const QRFormPopup = () => {
     });
 
     const handleOpenModal = () => {
+        setIsFirstModalOpen(false);
         setIsModalOpen(true);
     };
 
@@ -62,6 +63,13 @@ const QRFormPopup = () => {
         // Close the modal
         setIsModalOpen(false);
     };
+    useEffect(() => {
+        if (showPopup) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "auto";
+        }
+    }, [showPopup]);
     return (
         <div>
             <a href="#" data-after="Authenticate" onClick={openPopup} style={{ fontFamily: 'Inter' }}>Authenticate</a>
@@ -72,26 +80,27 @@ const QRFormPopup = () => {
                         <span className="close" onClick={closePopup}>
                             &times;
                         </span>
-                        <h2 style={{ fontFamily: 'Inter' }}>QR Code Form</h2>
-                        <label style={{ fontFamily: 'Inter' }}>
+                        <h2 style={{ fontFamily: 'Inter', color: 'white' }}>QR Code Form</h2>
+                        <label style={{ fontFamily: 'Inter', color: 'white' }}>
                             Scan QR Code:
                             <br />
                             {/* <input type="text" onChange={handleScan} /> */}
                             <img src={scan} alt="Image Description" style={{ width: '100px' }} />
                         </label>
-                        <label style={{ fontFamily: 'Inter' }}>
+                        <label style={{ fontFamily: 'Inter', color: 'white' }}>
                             Upload QR Code:
                             <input type="file" accept="image/*" onChange={handleUpload} />
                         </label>
                         <div>
                             <a href="#" onClick={handleOpenModal} style={{ fontFamily: 'Inter' }}>Item Code</a>
-
+                            {/* <button type="submit" style={{ fontFamily: 'Inter' }}> <Link to="/Authenticate" >SUBMIT </Link></button> */}
+                            <a href="#" onClick={handleOpenModal} style={{ fontFamily: 'Inter', paddingRight: '6%', paddingTop: '3%' }}><Link to="/Authenticate" >SUBMIT </Link></a>
                             {isModalOpen && (
                                 <div className="modal">
                                     <div className="modal-content">
                                         <span className="close" onClick={handleCloseModal}>&times;</span>
                                         <form onSubmit={handleSubmit}>
-                                            <h4 style={{ fontFamily: 'Inter' }}>Authenticate your item   </h4>
+                                            <h4 style={{ fontFamily: 'Inter', color: 'white' }}>Authenticate your item   </h4>
                                             <input type="text" name="authenticate" value={formData.authenticate} onChange={handleChange} placeholder="Enter Item Code" required style={{ fontFamily: 'Inter' }} />
                                             <button type="submit" style={{ fontFamily: 'Inter' }}>Submit</button>
                                         </form>
@@ -106,7 +115,7 @@ const QRFormPopup = () => {
                                     <p>{qrCode}</p>
                                 </div>
                             )}
-                            <button type="submit" style={{ fontFamily: 'Inter' }}> <Link to="/Authenticate" >Authenticate </Link></button>
+
                         </div>
                     </div>
                 </div>

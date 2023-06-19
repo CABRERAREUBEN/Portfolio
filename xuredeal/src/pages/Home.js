@@ -18,6 +18,7 @@ import artwork from './img/artwork.png';
 import Countdown from './Countdown';
 import xuredeallogo from './img/xuredeal-logo/Logo-design-Xure-Deal-gold-colors-dark-BG-PNG.png';
 import screenSlideShow from './img/slideshow_1.gif';
+import screenSlideShowupdate from './img/slideshow-updated_1.gif';
 import check from './img/Icons-Xure-Deal/Group 37.png'
 import Exchange from './img/Icons-Xure-Deal/Group 33.png'
 import Exhibition from './img/Icons-Xure-Deal/Group 35.png'
@@ -251,7 +252,7 @@ function Home() {
                             </div>
                             <ul>
                                 <li>
-                                    <a href="#hero" data-after="Home"   >Home</a>
+                                    <a href="#hero" data-after="Home"  >Home</a>
                                 </li>
                                 <li>
                                     <QRFormPopup />
@@ -437,7 +438,7 @@ function Home() {
                                         </div>
                                     </div>
                                     <div className="screenSlideShow">
-                                        <img src={screenSlideShow} style={{ width: '100%', height: '100%' }} />
+                                        <img src={screenSlideShowupdate} style={{ width: '100%', height: '100%' }} />
                                     </div>
                                     {/* <div className="image-text-container">
                     <img src={Exchange} alt="Image Description" className="exchange-image" />
@@ -566,10 +567,10 @@ function Home() {
                     <div>
                         <ul class="grid1-container">
                             <li class="grid1-title"><h4 style={{ color: 'white', fontSize: '28px', textAlign: 'center', fontFamily: 'Inter', fontWeight: 'bold' }}>ABOUT</h4></li>
-                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontFamily: 'Inter' }}><a href="#" >Contact Us </a> </p></li>
-                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontFamily: 'Inter' }}><a href="#" >Privacy Policy</a></p></li>
-                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontFamily: 'Inter' }}><a href="#" >Terms of Use</a></p></li>
-                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontFamily: 'Inter' }}><a href="#" >FAQ's</a></p></li>
+                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontFamily: 'Inter' }}><a href="#" style={{ color: "white" }}>Contact Us </a> </p></li>
+                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontFamily: 'Inter' }}><a href="#" style={{ color: "white" }}>Privacy Policy</a></p></li>
+                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontFamily: 'Inter' }}><a href="#" style={{ color: "white" }}>Terms of Use</a></p></li>
+                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontFamily: 'Inter' }}><a href="#" style={{ color: "white" }}>FAQ's</a></p></li>
                         </ul>
 
                     </div>
