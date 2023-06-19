@@ -330,14 +330,15 @@ p {
     margin: 0 auto;
 }
 
-#services .service-bottom {
+/* #services .service-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
-}
+} */
 
+/* 
 #services .service-item {
     flex-basis: 80%;
     display: flex;
@@ -346,13 +347,13 @@ p {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    /* background-image: url(./img/img-1.png); */
+   
     background-size: cover;
     margin: 10px 5%;
     position: relative;
     z-index: 1;
     overflow: hidden;
-}
+} */
 
 #services .service-item::after {
     content: '';
@@ -1261,8 +1262,18 @@ p {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
+
 }
 
+/* .contact-box {
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+} */
 #services .service-item {
     flex-basis: 80%;
     display: flex;
@@ -1270,8 +1281,7 @@ p {
     justify-content: center;
     flex-direction: column;
     padding: 30px;
-    border-radius: 10px;
-    /* background-image: url(./img/img-1.png); */
+    border-radius: 5%;
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -2758,17 +2768,107 @@ input[type="submit"]:hover {
     }
 }
 
+/* my items view */
 body {
     font-family: 'inter';
     margin: 0;
     padding: 0;
 }
 
+/* Mobile-friendly styles */
+@media only screen and (max-width: 767px) {
+    .product-view {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .main-image {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .additional-images {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        overflow-x: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .additional-images img {
+        width: 80px;
+        margin-right: 10px;
+    }
+
+    .product-details {
+        padding: 20px;
+        background-color: #1c1c1c;
+        border-radius: 5px;
+        margin: 10px;
+        padding-bottom: 50px;
+    }
+
+    .background-container {
+        background-color: #1c1c1c;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .product-details h2 {
+        margin-top: 0;
+        color: white;
+        text-align: center;
+        font-weight: 550;
+        font-size: 24px;
+    }
+
+    .provenance-details {
+        padding: 20px;
+        background-color: #1c1c1c;
+        border-radius: 15px;
+        margin: 20px;
+        border: 2px solid #531a89;
+    }
+
+    .container-provenance {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px;
+        margin-top: -50px;
+    }
+
+    .provenance-details {
+        flex: 1;
+        margin-right: 10px;
+    }
+
+    .provenance-details h2 {
+        margin-top: 0;
+        color: #AD8200;
+        text-align: center;
+        font-weight: 550;
+        font-size: 24px;
+    }
+
+    .provenance-description {
+        color: white;
+        text-align: left;
+        position: relative;
+    }
+}
+
+/* Tablet and desktop styles */
 .product-view {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 2%;
 }
 
 .product-images {
@@ -2798,7 +2898,6 @@ body {
     background-color: #5A5A5A;
     border-radius: 5px;
     margin-right: 10px;
-
 }
 
 .product-details {
@@ -2879,7 +2978,6 @@ body {
     border: 2px solid #531a89;
 }
 
-
 .container-provenance {
     display: flex;
     justify-content: space-between;
@@ -2904,51 +3002,6 @@ body {
     color: white;
     text-align: left;
     position: relative;
-}
-
-/* Media Query for Mobile Devices */
-@media (max-width: 768px) {
-    .product-view {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .main-image {
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-
-    .additional-images {
-        flex-direction: row;
-        overflow-x: auto;
-    }
-
-    .additional-images img {
-        width: 80px;
-        margin-bottom: 0;
-        margin-right: 10px;
-    }
-
-    .product-details {
-        margin: 20px;
-
-    }
-
-    .provenance-details {
-        margin: 20px;
-    }
-
-    .product-description::after,
-    .product-price::after {
-        display: none;
-    }
-}
-
-/* Added CSS for columns within <p> */
-.column {
-    display: inline-block;
-    width: 50%;
 }
 
 /* Hero Section */

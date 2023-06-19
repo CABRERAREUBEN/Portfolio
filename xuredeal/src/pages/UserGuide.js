@@ -297,31 +297,32 @@ function Home() {
 
                         <div class="service-item">
                             <div class="icon"><img src={globe} alt="Image Description" className="check-image" /></div>
-                            <h2 style={{ fontWeight: 'normal' }}>Items will be tagged as online <br /> verified</h2>
+                            <h2 style={{ fontWeight: 'normal' }}>Items can be authenticated remotely, by  <br />authenticators across the globe </h2>
 
                         </div>
                         <div class="service-item">
                             <div class="icon"><img src={user} alt="Image Description" className="check-image" /></div>
-                            <h2 style={{ fontWeight: 'normal' }}>Items will be tagged as online <br /> verified</h2>
+                            <h2 style={{ fontWeight: 'normal' }}>Authentication process is done <br /> by both the authenticator and you</h2>
 
                         </div>
                         <div class="service-item">
                             <div class="icon"><img src={g12} alt="Image Description" className="check-image" /></div>
-                            <h2 style={{ fontWeight: 'normal' }}>Items will be tagged as online <br /> verified</h2>
+                            <h2 style={{ fontWeight: 'normal', margin: '9.6%' }}>Items will be tagged as Online<br />verified </h2>
 
                         </div>
 
                     </div>
+
                 </div>
 
-            </section>
+            </section >
 
 
             {/* <!-- End Projects Section -->
 
 
             <!-- Footer --> */}
-            <footer class="footer-distributed">
+            < footer class="footer-distributed" >
 
                 <div class="footer-left">
                     <div class="brand">
@@ -372,14 +373,14 @@ function Home() {
 
                 </div>
 
-            </footer>
+            </footer >
             <footer>
                 <div class="credits">
                     <p style={{ color: 'white' }}>&copy; 2023 Xure Deal. All rights reserved.</p>
                 </div>
             </footer>
 
-        </div>
+        </div >
     );
 }
 
