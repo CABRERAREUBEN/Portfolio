@@ -271,7 +271,7 @@ function Home() {
 
                                 </li>
                                 <li>
-                                    <a href="#projects" data-after="Projects" style={{ fontFamily: 'Inter' }}> <Link to="/UserGuide" >User Guide </Link></a>
+                                    <a href="#UserGuide" data-after="UserGuide" style={{ fontFamily: 'Inter' }}> <Link to="/UserGuide" >User Guide </Link></a>
                                 </li>
                                 <li>
                                     <a href="#works" data-after="works" style={{ fontFamily: 'Inter' }}>How it Works</a>
@@ -329,9 +329,14 @@ function Home() {
                             </div>
                         </div>
                         {/* <h1 style={{ fontSize: '24px', fontWeight: 'normal' }}>Launching In</h1> */}
-                        <div style={containersStyles}>
-                            <img src={gplay} alt="Image Description" style={imgStyles} />
-                            <img src={appay} alt="Image Description" style={img1Styles} />
+                        {/* <div style={containersStyles}> */}
+                        <div className="img-box">
+                            <div className="img-item">
+                                <img src={gplay1} alt="Image Description" />
+                            </div>
+                            <div className="img-item">
+                                <img src={astore} alt="Image Description" />
+                            </div>
                         </div>
                     </div>
                 </div>

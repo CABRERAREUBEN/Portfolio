@@ -64,7 +64,7 @@ const QRFormPopup = () => {
     };
     return (
         <div>
-            <a href="#" onClick={openPopup} style={{ fontFamily: 'Inter' }}>Authenticate</a>
+            <a href="#" data-after="Authenticate" onClick={openPopup} style={{ fontFamily: 'Inter' }}>Authenticate</a>
 
             {showPopup && (
                 <div className="popup">
