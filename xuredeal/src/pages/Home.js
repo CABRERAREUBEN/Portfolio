@@ -486,7 +486,7 @@ function Home() {
                 <div className="contact-box">
 
                     <div>
-                        <h1 class="section-title" style={{ color: "white", fontWeight: 'bold' }}>Contact <span>Us</span></h1>
+                        <h1 class="section-title" style={{ color: "white", fontWeight: 'bold', fontSize: '4rem' }}>Contact <span>Us</span></h1>
                     </div>
                     {/* <div class="contact-items">
                         <div class="contact-item">
