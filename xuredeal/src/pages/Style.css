@@ -1302,10 +1302,10 @@ p {
 }
 
 #services .service-bottom .icon {
-    height: 80px;
-    width: 80px;
-    margin-bottom: 20px;
-    margin-left: 70px;
+    height: 5%;
+    width: 5%;
+    margin-bottom: 5%;
+    margin-left: 35%;
 }
 
 #services .service-item h2 {
