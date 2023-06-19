@@ -4020,3 +4020,47 @@ button:hover {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+@media (max-width: 480px) {
+
+    /* Adjust the properties for mobile screens */
+    .contact-box {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1920px) {
+
+    /* Adjust the properties for screens up to 1920px */
+    .contact-box {
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
+
+@media (min-width: 1921px) and (max-width: 2560px) {
+
+    /* Adjust the properties for 2K screens */
+    .contact-box {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
+
+@media (min-width: 2561px) {
+
+    /* Adjust the properties for 4K screens and higher resolutions */
+    .contact-box {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
