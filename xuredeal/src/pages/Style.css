@@ -262,7 +262,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    /* background-color: black; */
+    background-color: black;
     opacity: 0.7;
     z-index: -1;
 }
@@ -1077,7 +1077,6 @@ p {
 /* Hero Section */
 #hero {
     background-image: url(./img/cube-1.png);
-    background-color: white;
     background-size: 600px 550px;
     background-repeat: no-repeat;
     background-position: calc(80% + 120px) 20px;
@@ -1109,7 +1108,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: transparent;
     opacity: 0.7;
     z-index: -1;
 }
@@ -2887,7 +2886,7 @@ body {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: transparent;
     opacity: 0.7;
     z-index: -1;
 }
