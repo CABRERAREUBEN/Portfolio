@@ -270,9 +270,9 @@ function Home() {
             <section id="services">
                 <div class="services container">
                     <div class="service-top">
-                        <h1 class="section-title"><span>U</span>ser<span>G</span>uide</h1>
+                        <h1 class="section-title" style={{ fontWeight: 'bold' }}><span>U</span>ser<span>G</span>uide</h1>
                     </div>
-                    <h1 style={{ fontSize: '48px', paddingTop: '10px', fontWeight: 'bold' }}>Physical</h1>
+                    <h1 style={{ fontSize: '48px', paddingTop: '10px' }}>Physical</h1>
                     <div class="service-bottom">
 
                         <div class="service-item">
@@ -292,27 +292,28 @@ function Home() {
                         </div>
 
                     </div>
+                    <h1 style={{ fontSize: '48px', paddingTop: '10px' }}>Online</h1>
+                    <div class="service-bottom">
+
+                        <div class="service-item">
+                            <div class="icon"><img src={globe} alt="Image Description" className="check-image" /></div>
+                            <h2 style={{ fontWeight: 'normal' }}>Items will be tagged as online <br /> verified</h2>
+
+                        </div>
+                        <div class="service-item">
+                            <div class="icon"><img src={user} alt="Image Description" className="check-image" /></div>
+                            <h2 style={{ fontWeight: 'normal' }}>Items will be tagged as online <br /> verified</h2>
+
+                        </div>
+                        <div class="service-item">
+                            <div class="icon"><img src={g12} alt="Image Description" className="check-image" /></div>
+                            <h2 style={{ fontWeight: 'normal' }}>Items will be tagged as online <br /> verified</h2>
+
+                        </div>
+
+                    </div>
                 </div>
-                <h1 style={{ fontSize: '48px', paddingTop: '10px', fontWeight: 'bold' }}>Online</h1>
-                <div class="service-bottom">
 
-                    <div class="service-item">
-                        <div class="icon"><img src={globe} alt="Image Description" className="check-image" /></div>
-                        <h2 style={{ fontWeight: 'normal' }}>Items will be tagged as online <br /> verified</h2>
-
-                    </div>
-                    <div class="service-item">
-                        <div class="icon"><img src={user} alt="Image Description" className="check-image" /></div>
-                        <h2 style={{ fontWeight: 'normal' }}>Items will be tagged as online <br /> verified</h2>
-
-                    </div>
-                    <div class="service-item">
-                        <div class="icon"><img src={g12} alt="Image Description" className="check-image" /></div>
-                        <h2 style={{ fontWeight: 'normal' }}>Items will be tagged as online <br /> verified</h2>
-
-                    </div>
-
-                </div>
             </section>
 
 

@@ -17,6 +17,7 @@ import collectibles from './img/coll.png';
 import artwork from './img/artwork.png';
 import Countdown from './Countdown';
 import xuredeallogo from './img/xuredeal-logo/Logo-design-Xure-Deal-gold-colors-dark-BG-PNG.png';
+import screenSlideShow from './img/slideshow_1.gif';
 import check from './img/Icons-Xure-Deal/Group 37.png'
 import Exchange from './img/Icons-Xure-Deal/Group 33.png'
 import Exhibition from './img/Icons-Xure-Deal/Group 35.png'
@@ -44,7 +45,8 @@ function Home() {
         height: '80px',
         paddingTop: '20px',
         marginRight: '10px',
-        marginLeft: '-61px'
+        marginLeft: '-61px',
+        borderRadius: '30px',
     };
 
     const img1Styles = {
@@ -52,6 +54,7 @@ function Home() {
         height: '80px',
         paddingTop: '20px',
         marginRight: '-55px',
+        borderRadius: '30px',
     };
 
     const logostyle = {
@@ -248,7 +251,7 @@ function Home() {
                             </div>
                             <ul>
                                 <li>
-                                    <a href="#hero" data-after="Home" style={{ fontFamily: 'Inter' }}>Home</a>
+                                    <a href="#hero" data-after="Home"   >Home</a>
                                 </li>
                                 <li>
                                     <QRFormPopup />
@@ -332,10 +335,10 @@ function Home() {
                         {/* <div style={containersStyles}> */}
                         <div className="img-box">
                             <div className="img-item">
-                                <img src={gplay1} alt="Image Description" />
+                                <img src={gplay} alt="Image Description" />
                             </div>
                             <div className="img-item">
-                                <img src={astore} alt="Image Description" />
+                                <img src={appay} alt="Image Description" />
                             </div>
                         </div>
                     </div>
@@ -387,47 +390,54 @@ function Home() {
                 <div>
                     <div >
                         <div className="text-container">
-                            <h1 style={{ fontSize: '40px', fontWeight: 'bold', paddingTop: '20px', marginLeft: '10px', marginRight: '10px', textAlign: 'center' }}>How Xure Deal Works?</h1>
+                            <div className="howxure-box">
+                                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '10px', }}>
+                                    <h1 className="howxure">How Xure Deal Works?</h1>
+                                </div>
 
-                            <div class="middle-line">
-                                <div class="left-text">
+                                <div class="middle-line">
+                                    <div class="left-text">
 
-                                    <div className="image-text-container">
+                                        <div className="image-text-container">
 
-                                        <img src={check} alt="Image Description" className="check-image" />
+                                            <img src={check} alt="Image Description" className="check-image" />
 
-                                        <span>
-                                            <div className="text-content">
-                                                <h1 style={{ fontSize: '30px', fontWeight: 'Medium', }} >The Authentication </h1>
-                                                <h2 style={{ color: 'white', fontWeight: 'normal', paddingTop: '5px' }}>Have your item's Authenticity
-                                                    <br /> certified by our community of <br />Authenticators</h2>
-                                            </div>
-                                        </span>
+                                            <span>
+                                                <div className="text-content">
+                                                    <h1 className="ContentHeader">The Authentication </h1>
+                                                    <h2 style={{ color: 'white', fontWeight: 'normal', paddingTop: '5px' }}>Have your item's Authenticity
+                                                        certified by our community of Authenticators</h2>
+                                                </div>
+                                            </span>
+                                        </div>
+                                        <div className="lhorizontal-line"></div>
+                                        <div className="image-text-container">
+                                            <img src={Exhibition} alt="Image Description" className="check-image" />
+
+                                            <span>
+                                                <div className="text-content">
+                                                    <h1 className="ContentHeader">The Exhibition </h1>
+                                                    <h2 style={{ color: 'white', fontWeight: 'normal', paddingTop: '5px' }}>Showcase your authenticated items online or on your phone to other enthusiasts</h2>
+                                                </div>
+                                            </span>
+
+                                        </div>
+                                        <div className="lhorizontal-line"></div>
+                                        <div className="image-text-container">
+                                            <img src={Exchange} alt="Image Description" className="check-image" />
+
+                                            <span>
+                                                <div className="text-content">
+                                                    <h1 className="ContentHeader">The Exchange </h1>
+                                                    <h2 style={{ color: 'white', fontWeight: 'normal', paddingTop: '5px' }}>Buy and sell other authenticated items in the community on The Shop</h2>
+                                                </div>
+
+                                            </span>
+
+                                        </div>
                                     </div>
-                                    <div className="lhorizontal-line"></div>
-                                    <div className="image-text-container">
-                                        <img src={Exhibition} alt="Image Description" className="exhibition-image" />
-
-                                        <span>
-                                            <div className="text-content">
-                                                <h1 style={{ fontSize: '30px', fontWeight: 'Medium', paddingTop: '133px', paddingRight: '60px' }} >The Exhibition </h1>
-                                                <h2 style={{ color: 'white', fontWeight: 'normal', paddingTop: '5px' }}>Showcase your authenticated <br />items online or on your phone to <br /> other enthusiasts</h2>
-                                            </div>
-                                        </span>
-
-                                    </div>
-                                    <div className="lhorizontal-line"></div>
-                                    <div className="image-text-container">
-                                        <img src={Exchange} alt="Image Description" className="exhibition-image" />
-
-                                        <span>
-                                            <div className="text-content">
-                                                <h1 style={{ fontSize: '30px', fontWeight: 'Medium', paddingTop: '133px', paddingRight: '60px' }} >The Exchange </h1>
-                                                <h2 style={{ color: 'white', fontWeight: 'normal', paddingTop: '5px' }}>Buy and sell other authenticated items <br /> in the community on The Shop</h2>
-                                            </div>
-
-                                        </span>
-
+                                    <div className="screenSlideShow">
+                                        <img src={screenSlideShow} style={{ width: '100%', height: '100%' }} />
                                     </div>
                                     {/* <div className="image-text-container">
                     <img src={Exchange} alt="Image Description" className="exchange-image" />
@@ -473,10 +483,12 @@ function Home() {
             <!-- Contact Section --> */}
             <section id="contact">
                 {/* <div class="contact container"> */}
-                <div>
-                    <h1 class="section-title" style={{ color: "white" }}>Contact <span>Us</span></h1>
-                </div>
-                {/* <div class="contact-items">
+                <div className="contact-box">
+
+                    <div>
+                        <h1 class="section-title" style={{ color: "white", fontWeight: 'bold' }}>Contact <span>Us</span></h1>
+                    </div>
+                    {/* <div class="contact-items">
                         <div class="contact-item">
 
                             <div class="contact-info">
@@ -519,20 +531,22 @@ function Home() {
 
                     </div> */}
 
-                <div class="containercontact">
-                    <form action="/action_page.php">
-                        <input type="text" id="fname" name="firstname" placeholder="Name" />
+                    {/* <div class="containercontact"> */}
+                    <div>
+                        <form action="/action_page.php">
+                            <input type="text" id="fname" name="firstname" placeholder="Name" />
 
-                        <input type="email" id="email" name="lastname" placeholder="Email Address" />
+                            <input type="email" id="email" name="lastname" placeholder="Email Address" />
 
-                        <input type="text" id="subject" name="lastname" placeholder="Subject" />
+                            <input type="text" id="subject" name="lastname" placeholder="Subject" />
 
-                        <textarea id="message" name="Message" placeholder="Your Message"></textarea>
+                            <textarea id="message" name="Message" placeholder="Your Message"></textarea>
 
-                        <input type="submit" value="Submit" />
-                    </form>
+                            <input type="submit" value="Submit" />
+                        </form>
+                    </div>
+                    {/* </div> */}
                 </div>
-                {/* </div> */}
             </section>
 
             {/* <!-- End Contact Section -->
@@ -551,11 +565,11 @@ function Home() {
                 <div class="footer-center">
                     <div>
                         <ul class="grid1-container">
-                            <li class="grid1-title"><h4 style={{ color: 'white', fontSize: '28px', textAlign: 'center', fontFamily: 'Inter' }}>ABOUT</h4></li>
-                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontWeight: 'bold', fontFamily: 'Inter' }}>Contact Us </p></li>
-                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontWeight: 'bold', fontFamily: 'Inter' }}>Privacy Policy</p></li>
-                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontWeight: 'bold', fontFamily: 'Inter' }}>Terms of Use</p></li>
-                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontWeight: 'bold', fontFamily: 'Inter' }}>FAQ's</p></li>
+                            <li class="grid1-title"><h4 style={{ color: 'white', fontSize: '28px', textAlign: 'center', fontFamily: 'Inter', fontWeight: 'bold' }}>ABOUT</h4></li>
+                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontFamily: 'Inter' }}><a href="#" >Contact Us </a> </p></li>
+                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontFamily: 'Inter' }}><a href="#" >Privacy Policy</a></p></li>
+                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontFamily: 'Inter' }}><a href="#" >Terms of Use</a></p></li>
+                            <li class="grid1-item"> <p style={{ color: 'white', fontSize: '14px', textAlign: 'center', fontFamily: 'Inter' }}><a href="#" >FAQ's</a></p></li>
                         </ul>
 
                     </div>
@@ -569,7 +583,7 @@ function Home() {
                 <div class="footer-right">
 
                     <p class="footer-company-about">
-                        <span><h4 style={{ color: 'white', fontSize: '28px', textAlign: 'center', fontFamily: 'Inter' }}>Social Media </h4></span>
+                        <span><h4 style={{ color: 'white', fontSize: '28px', textAlign: 'center', fontFamily: 'Inter', fontWeight: 'bold' }}>Social Media </h4></span>
                     </p>
 
 
@@ -590,7 +604,7 @@ function Home() {
                 </div>
 
             </footer>
-            <footer>
+            <footer className="footer-bottom">
                 <div class="credits">
                     <p style={{ color: 'white', fontFamily: 'Inter' }}>&copy; 2023 Xure Deal. All rights reserved.</p>
                 </div>
