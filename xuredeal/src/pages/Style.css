@@ -2863,7 +2863,7 @@ body {
 /* Hero Section */
 #works {
     background-image: url(./img/slideshow_1.gif);
-    background-size: 350px 720px;
+    background-size: 350px 650px;
     background-repeat: no-repeat;
     background-position: calc(80% + 120px) 20px;
     position: relative;
@@ -3192,7 +3192,7 @@ label {
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #ad8200;
     color: white;
     padding: 12px 20px;
     border: none;
