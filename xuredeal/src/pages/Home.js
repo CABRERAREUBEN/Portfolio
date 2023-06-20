@@ -534,14 +534,14 @@ function Home() {
 
                     {/* <div class="containercontact"> */}
                     <div>
-                        <form action="/action_page.php">
+                        <form>
                             <input type="text" id="fname" name="firstname" placeholder="Name" />
 
                             <input type="email" id="email" name="lastname" placeholder="Email Address" />
 
                             <input type="text" id="subject" name="lastname" placeholder="Subject" />
 
-                            <textarea id="message" name="Message" placeholder="Your Message" />
+                            <textarea id="message" name="Message" placeholder="Your Message" style={{ fontFamily: 'Inter, sans-serif' }} />
 
                             <input type="submit" value="Submit" />
                         </form>
