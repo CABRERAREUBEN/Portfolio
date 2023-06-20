@@ -2728,15 +2728,18 @@ textarea {
     background-color: transparent;
     background: rgba(0, 0, 0, 0.5);
     color: white;
+    font-style: 'inter';
 }
 
 textarea {
     height: 100px;
+    font-style: 'inter';
     /* Set initial height */
 }
 
 input[type="submit"] {
     background-color: #ad8200;
+    width: 10%;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -2753,6 +2756,10 @@ input[type="submit"]:hover {
     background-color: transparent;
     padding: 100px;
     margin-top: -70px;
+}
+
+.title {
+    margin-top: 1%;
 }
 
 /* Media Query for Mobile Devices */

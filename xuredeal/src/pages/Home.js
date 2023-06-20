@@ -486,7 +486,7 @@ function Home() {
                 {/* <div class="contact container"> */}
                 <div className="contact-box">
 
-                    <div>
+                    <div className="title">
                         <h1 class="section-title" style={{ color: "white", fontWeight: 'bold', fontSize: '4rem' }}>Contact <span>Us</span></h1>
                     </div>
                     {/* <div class="contact-items">
@@ -541,7 +541,7 @@ function Home() {
 
                             <input type="text" id="subject" name="lastname" placeholder="Subject" />
 
-                            <textarea id="message" name="Message" placeholder="Your Message"></textarea>
+                            <textarea id="message" name="Message" placeholder="Your Message" style={{ fontStyle: 'inter' }}></textarea>
 
                             <input type="submit" value="Submit" />
                         </form>

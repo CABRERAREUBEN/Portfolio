@@ -302,41 +302,41 @@ function Home() {
                                 <h2>Specifications</h2>
                                 <p class="product-description">
                                     <span class="column">Item Code</span>
-                                    <span class="column" style={{ paddingLeft: '120px' }}>2ANEFR39T4K0</span>
+                                    <span class="column" style={{ paddingLeft: '60%' }}>2ANEFR39T4K0</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Brand</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>Nike</span>
+                                    <span class="column" style={{ paddingLeft: '67%' }}>Nike</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Model</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>Jordan 1 Mocha</span>
+                                    <span class="column" style={{ paddingLeft: '66%' }}>Jordan 1 Mocha</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Movement</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>Quartz</span>
+                                    <span class="column" style={{ paddingLeft: '60%' }}>Quartz</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Case Material</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>ETA Foam
+                                    <span class="column" style={{ paddingLeft: '39%' }}>ETA Foam
                                         Nylon
                                         Polyester</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Year of Production</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>2016-2018</span>
+                                    <span class="column" style={{ paddingLeft: '48%' }}>2016-2018</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Condition</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>New</span>
+                                    <span class="column" style={{ paddingLeft: '62%' }}>New</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Inclusions</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>Jordan 1 Mocha</span>
+                                    <span class="column" style={{ paddingLeft: '60%' }}>Jordan 1 Mocha</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Gender</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>Unisex</span>
+                                    <span class="column" style={{ paddingLeft: '64%' }}>Unisex</span>
                                 </p>
 
                             </div>
@@ -344,43 +344,43 @@ function Home() {
                                 <h2>Provenance</h2>
                                 <p class="product-description">
                                     <span class="column">Authenticated</span>
-                                    <span class="column" style={{ paddingLeft: '120px' }}>22-Nov-2021  18:54</span>
+                                    <span class="column" style={{ paddingLeft: '46%' }}>22-Nov-2021  18:54</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Control Number</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>1234567890</span>
+                                    <span class="column" style={{ paddingLeft: '44%' }}>1234567890</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Authenticator</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>Jane Doe</span>
+                                    <span class="column" style={{ paddingLeft: '47%' }}>Jane Doe</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Registered</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>24-Nov-2021  09:53</span>
+                                    <span class="column" style={{ paddingLeft: '52%' }}>24-Nov-2021  09:53</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Member Code</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>9876543210</span>
+                                    <span class="column" style={{ paddingLeft: '47%' }}>9876543210</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Member Name</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>John Doe</span>
+                                    <span class="column" style={{ paddingLeft: '47%' }}>John Doe</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Transferred</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>22-Nov-2021  18:54</span>
+                                    <span class="column" style={{ paddingLeft: '51%' }}>22-Nov-2021  18:54</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">Control Number</span>
-                                    <span class="column" style={{ paddingLeft: '155px' }}>101010101010</span>
+                                    <span class="column" style={{ paddingLeft: '45%' }}>101010101010</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">FROM</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>Unisex</span>
+                                    <span class="column" style={{ paddingLeft: '61%' }}>Unisex</span>
                                 </p>
                                 <p class="product-description">
                                     <span class="column">TO</span>
-                                    <span class="column" style={{ paddingLeft: '170px' }}>Unisex</span>
+                                    <span class="column" style={{ paddingLeft: '66%' }}>Unisex</span>
                                 </p>
 
                             </div>
