@@ -296,7 +296,8 @@ function Home() {
 
                         <h1 style={{ fontSize: '48px', paddingTop: '10px' }}>Authenticate, <span></span></h1>
                         <h1 style={{ fontSize: '48px', paddingTop: '10px' }}>Showcase, and Trade <span></span></h1>
-                        <h1 style={{ fontSize: '40px', fontWeight: 'normal', marginLeft: '60px' }}><TypingAnimation words={words} typingSpeed={82} /> </h1>
+                        {/* , marginLeft: '60px' */}
+                        <h1 style={{ fontSize: '40px', fontWeight: 'normal' }}><TypingAnimation words={words} typingSpeed={82} /> </h1>
                         {/* <h1 style={{ fontSize: '40px' }}><TypingAnimation words={words} typingSpeed={82} /></h1> */}
                         <br />
                         <br />
