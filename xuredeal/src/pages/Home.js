@@ -127,7 +127,7 @@ function Home() {
     // ];
 
     //Clock
-    const targetDate = new Date('2023-07-19T08:30:00'); // Set your target date here
+    const targetDate = new Date('2023-08-10T01:30:00'); // Set your target date here
 
     const calculateTimeRemaining = () => {
         const currentTime = new Date();
