@@ -270,9 +270,16 @@ function Home() {
             <section id="services">
                 <div class="services container">
                     <div class="service-top">
-                        <h1 class="section-title" style={{ fontWeight: 'bold' }}><span>U</span>ser<span>G</span>uide</h1>
+                        <span class="column">
+                            <h1 class="section-title" style={{ fontWeight: 'bold' }}><p class="title-line"><span>U</span>ser<span>G</span>uide</p></h1>
+                        </span>
+
                     </div>
-                    <h1 style={{ fontSize: '48px', paddingTop: '10px' }}>Physical</h1>
+
+                    <div className="userguide-box">
+                        <h1 style={{ fontSize: '48px', paddingTop: '1%' }}><span class="arrow">Physical <span class="arrow-symbol">&rarr; </span></span></h1>
+                    </div>
+
                     <div class="service-bottom">
 
                         <div class="service-item">
@@ -292,7 +299,9 @@ function Home() {
                         </div>
 
                     </div>
-                    <h1 style={{ fontSize: '48px', paddingTop: '10px' }}>Online</h1>
+                    <div className="userguide-box">
+                        <h1 style={{ fontSize: '48px', paddingTop: '1%' }}><span class="arrow">Online <span class="arrow-symbol">&rarr; </span></span></h1>
+                    </div>
                     <div class="service-bottom">
 
                         <div class="service-item">
